@@ -1,4 +1,6 @@
 from main import *
+import time
+import tabulate
 
 def test_compare_search():
 	res = compare_search(sizes=[10, 100])
